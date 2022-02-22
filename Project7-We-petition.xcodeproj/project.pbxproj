@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		1B18EB7427C1EDD60016C0C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B18EB7327C1EDD60016C0C9 /* AppDelegate.swift */; };
 		1B18EB7627C1EDD60016C0C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B18EB7527C1EDD60016C0C9 /* SceneDelegate.swift */; };
-		1B18EB7827C1EDD60016C0C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B18EB7727C1EDD60016C0C9 /* ViewController.swift */; };
+		1B18EB7827C1EDD60016C0C9 /* PetitionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B18EB7727C1EDD60016C0C9 /* PetitionsTableViewController.swift */; };
 		1B18EB7B27C1EDD60016C0C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B18EB7927C1EDD60016C0C9 /* Main.storyboard */; };
 		1B18EB7D27C1EDD70016C0C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B18EB7C27C1EDD70016C0C9 /* Assets.xcassets */; };
 		1B18EB8027C1EDD70016C0C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B18EB7E27C1EDD70016C0C9 /* LaunchScreen.storyboard */; };
+		1B46080327C2A85200470817 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B46080227C2A85200470817 /* MainTabBarViewController.swift */; };
+		1B98F6C127C52BD000E39670 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B98F6C027C52BD000E39670 /* DetailViewController.swift */; };
+		1BB9EFDD27C3C8A000DA4834 /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB9EFDC27C3C8A000DA4834 /* Petition.swift */; };
+		1BB9EFDF27C3C8D100DA4834 /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB9EFDE27C3C8D100DA4834 /* Issue.swift */; };
+		1BB9EFE127C3D37E00DA4834 /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB9EFE027C3D37E00DA4834 /* Petitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B18EB7027C1EDD60016C0C9 /* Project7-We-petition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project7-We-petition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B18EB7327C1EDD60016C0C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B18EB7527C1EDD60016C0C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1B18EB7727C1EDD60016C0C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B18EB7727C1EDD60016C0C9 /* PetitionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetitionsTableViewController.swift; sourceTree = "<group>"; };
 		1B18EB7A27C1EDD60016C0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B18EB7C27C1EDD70016C0C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B18EB7F27C1EDD70016C0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B18EB8127C1EDD70016C0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B46080227C2A85200470817 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		1B98F6C027C52BD000E39670 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1BB9EFDC27C3C8A000DA4834 /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		1BB9EFDE27C3C8D100DA4834 /* Issue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Issue.swift; sourceTree = "<group>"; };
+		1BB9EFE027C3D37E00DA4834 /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,28 @@
 		1B18EB7227C1EDD60016C0C9 /* Project7-We-petition */ = {
 			isa = PBXGroup;
 			children = (
+				1BB9EFDB27C3C89400DA4834 /* Model */,
 				1B18EB7327C1EDD60016C0C9 /* AppDelegate.swift */,
 				1B18EB7527C1EDD60016C0C9 /* SceneDelegate.swift */,
-				1B18EB7727C1EDD60016C0C9 /* ViewController.swift */,
+				1B18EB7727C1EDD60016C0C9 /* PetitionsTableViewController.swift */,
+				1B46080227C2A85200470817 /* MainTabBarViewController.swift */,
 				1B18EB7927C1EDD60016C0C9 /* Main.storyboard */,
 				1B18EB7C27C1EDD70016C0C9 /* Assets.xcassets */,
 				1B18EB7E27C1EDD70016C0C9 /* LaunchScreen.storyboard */,
 				1B18EB8127C1EDD70016C0C9 /* Info.plist */,
+				1B98F6C027C52BD000E39670 /* DetailViewController.swift */,
 			);
 			path = "Project7-We-petition";
+			sourceTree = "<group>";
+		};
+		1BB9EFDB27C3C89400DA4834 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BB9EFDC27C3C8A000DA4834 /* Petition.swift */,
+				1BB9EFDE27C3C8D100DA4834 /* Issue.swift */,
+				1BB9EFE027C3D37E00DA4834 /* Petitions.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B18EB7827C1EDD60016C0C9 /* ViewController.swift in Sources */,
+				1BB9EFDD27C3C8A000DA4834 /* Petition.swift in Sources */,
+				1B18EB7827C1EDD60016C0C9 /* PetitionsTableViewController.swift in Sources */,
+				1B46080327C2A85200470817 /* MainTabBarViewController.swift in Sources */,
 				1B18EB7427C1EDD60016C0C9 /* AppDelegate.swift in Sources */,
 				1B18EB7627C1EDD60016C0C9 /* SceneDelegate.swift in Sources */,
+				1BB9EFE127C3D37E00DA4834 /* Petitions.swift in Sources */,
+				1BB9EFDF27C3C8D100DA4834 /* Issue.swift in Sources */,
+				1B98F6C127C52BD000E39670 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +322,6 @@
 				INFOPLIST_FILE = "Project7-We-petition/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +349,6 @@
 				INFOPLIST_FILE = "Project7-We-petition/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
